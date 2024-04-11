@@ -9,10 +9,10 @@
 7. Verificador de ano bissexto (digita um ano e diz se é ou não)
 '''
 print('='*50)
-print('Bem vindo ao Verificador de ano bissexto!')
+print('Bem vindo ao verificador de ano bissexto!')
 print('='*50)
-ano = int(input('Digite um Ano: '))
+ano = int(input('Digite o ano que vai ser verificado: '))
 if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):
-    print(f'{ano} é um ano Bissexto!')
+    print(f'{ano} é um ano bissexto!')
 else:
-    print(f'{ano} Não é um ano bissexto!')
+    print(f'{ano} não é um ano bissexto!')
