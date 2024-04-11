@@ -25,7 +25,7 @@ imc = float(peso/(altura*altura))
 if imc < 18.5:
     print(f'{nome} Você está muito magro, procure um médico!')
 elif imc <= 24.9:
-    print(f'{nome} Você está saúdavel, parabéns!')
+    print(f'{nome} Você está saudável, parabéns!')
 elif imc <= 29.9:
     print(f'{nome} Você está sobrepeso, procure um médico!')
 elif imc <= 39.9: 
