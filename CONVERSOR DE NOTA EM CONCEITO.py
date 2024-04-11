@@ -11,7 +11,7 @@ print('===========================================')
 print('Bem vindo ao conversor de notas em conceito')
 print('===========================================')
 
-nota=float(input('Qual a nota sua nota [0.0 - 10.0]: '))
+nota=float(input('Digite a sua nota [0.0 - 10.0]: '))
 
 if nota >= 9:
     print('A sua nota é A')
