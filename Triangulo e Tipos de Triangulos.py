@@ -11,7 +11,7 @@ que você forneceu é possível formar um triangulo) e dizer depois qual e o tip
 do triangulo (equilátero, isósceles e escaleno)
 '''
 print('='*50)
-print('Verificador de triangulo e tipos de triangulos')
+print('Verificador de triângulo e tipos de triângulos')
 print('='*50)
 Ld1 = float(input('Digite o primeiro segmento: '))
 Ld2 = float(input('Digite o segundo segmento: '))
@@ -25,4 +25,4 @@ if (Ld1 < Ld2 + Ld3) and (Ld2 < Ld1 + Ld3) and (Ld3 < Ld1 + Ld2):
     else:
         print('Isóceles')
 else:
-    print('Os segmentos não podem Formar um Triângulo ')
+    print('Os segmentos não podem Formar um triângulo ')
