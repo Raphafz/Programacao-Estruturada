@@ -29,4 +29,4 @@ elif numero % 2 == 1 and numero < 0:
 elif numero == 0:
     print('O número é zero')
 else:
-    print('O numero não é nunhuma das alternativas!')
+    print('O número não é nunhuma das alternativas!')
